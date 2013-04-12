@@ -1,0 +1,15 @@
+<?php
+# FileName="Connection_php_mysql.htm"
+# Type="MYSQL"
+# HTTP="true"
+
+
+$hostname_busqueda = "localhost";
+$database_busqueda = "saladebatallas";
+$username_busqueda = "root";
+$password_busqueda = "";
+$busqueda = mysql_pconnect($hostname_busqueda, $username_busqueda, $password_busqueda) or trigger_error(mysql_error(),E_USER_ERROR);
+
+
+
+?>

@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+img{
+	border:none;
+}
+#contenedor{
+	width:800px;
+	margin:auto;
+	margin-top:20px;
+	border:0px solid #C0C0C0;
+	background-color:#F2F2F2;
+	padding-bottom:20px;
+}
+small{
+	font-size:9px;
+}
+
+table{
+	width:700px;
+	margin:auto;
+}
+td{
+	border-bottom:1px solid #D3D3D3;
+	padding:5px 0px 5px;
+}
+
+th{
+	background-color:#CDCDCD;
+	padding:0px 0px 0px;
+}
+
+form{
+
+	background-color:#F2F2F2;
+	width:500px;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+form p{
+	margin:auto;
+	width:450px;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+form input{
+	
+	padding:3px;
+}
+
+form .text{
+	width:400px;
+}

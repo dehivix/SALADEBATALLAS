@@ -1,0 +1,163 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #405A67;
+	text-align: justify;
+	
+
+}
+
+
+
+#page {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+#general {
+	list-style: none;
+	background: #2E3436 url(../images/general_bg.png) 0 100% repeat-x;
+	text-align: right;
+	padding: 0 1ex;
+	margin: 0;
+	font-size: 70%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#general li {
+	display: inline;
+	background: url(../images/general_separator.png) 0 0 no-repeat;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#general li a {
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 2ex;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+
+#general .home {
+	float: left;
+	background: url(../images/general_separator.png) 100% 0 no-repeat;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#general .home a {
+	float: left;
+	background: url(../images/home.png)7px 50% no-repeat;
+	margin-left: 0;
+	padding-left: 27px;
+}
+
+
+#header {
+	
+	background: #d70000 url(../images/gnome.png) 0px 0px no-repeat;
+
+
+	font-size: 75%;
+}
+
+#header h1 {
+
+	margin: 0;
+	margin-left: 100px;
+	padding-top: 25px;
+	font-size: 250%;
+	color: #ffffff;
+}
+
+.input-container{
+	padding:1px;
+}
+.greenButton{
+	width:auto;
+	margin:10px 0 0 2px;
+	padding:3px 4px 3px 4px;
+	color:white;
+	background-color:#589d39;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:bold;
+}
+
+.greenButton:active{
+	background-color:#006600;
+	padding:4px 3px 2px 5px;
+}
+
+#loading{
+	left:10px;
+	position:relative;
+	top:3px;
+	visibility:hidden;
+}
+
+#error{
+	background-color:#ffebe8;
+	border:1px solid #dd3c10;
+	padding:7px 3px;
+	text-align:center;
+	margin-top:10px;
+	visibility:hidden;
+}
+option {font-family: verdana; font-size: 12px; color: black}
+option.uno { background-color:#C5DBF5;}
+option.dos {background-color:#74CCED;}
+
+#inputArea
+	{
+	    font-family: Arial, Sans-Serif;
+	    font-size: 13px;
+	    background-color: #d6e5f4;
+	    padding: 10px;
+	    width:600px;
+
+
+
+
+	}
+	
+
+        .activeField
+        {
+            background-image: none;
+            background-color: #ffffff;
+            border: solid 1px #33677F;
+        }
+        .idle
+        {
+	    border: solid 1px #85b1de;
+		background-image:
+	    background-repeat:repeat-x;
+	    background-position: top;
+        }
+		textarea{
+	width: 400px;
+	height: 50px;
+	border: 3px solid #464646;
+	font-family: arial;
+	font-size: 14px;
+	padding: 5px;
+	color:#464646;
+}
+		.alert {
+	background: #fff6bf url(../images/error_32.png) 15px center no-repeat;
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #ffd324;
+	border-bottom: 2px solid #ffd324;
+	}

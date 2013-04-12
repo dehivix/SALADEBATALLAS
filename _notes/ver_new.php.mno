@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_noticia" value="name:imagen;datatype:string" />
+	<infoitem key="UD_noticias" value="name:id;datatype:int,name:titulo;datatype:blob,name:texto;datatype:blob,name:fecha;datatype:date,name:tipo_noticia;datatype:string,name:imagen;datatype:string" />
+</info>
